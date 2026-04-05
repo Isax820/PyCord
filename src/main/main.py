@@ -72,7 +72,7 @@ class AudioEngine:
 class ModernUI(QtWidgets.QWidget):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("PyCord v1.0 BETA")
+        self.setWindowTitle("PyCord v1.0")
         self.resize(1000, 600)
 
         self.engine = AudioEngine()
